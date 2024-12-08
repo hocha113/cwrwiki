@@ -30,14 +30,18 @@ function updateListener(){
     var hasColl = sidebar.classList.contains('collapsed')
     toggleBtn.textContent = hasColl ? '»»»' : '«««';
     closeEls.textContent = hasColl ? '开启' : '关闭';
-    if (hasColl){
-        closeEls.classList.remove("btn-animate");
-        closeEls.classList.add("btn-close");
-        closeEls.classList.add("btn-animate__overline-from-right");
-    }
-    else{
-        closeEls.classList.remove("btn-animate__overline-from-right");
-        closeEls.classList.remove("btn-close");
-        closeEls.classList.add("btn-animate");
-    }
+    const buttons = document.querySelectorAll('#sidebar .menu li a');
+
+    buttons.forEach((item) => {
+        if (hasColl){
+            item.classList.remove("btn-animate");
+            item.classList.add("btn-close");
+            item.classList.add("btn-animate__overline-from-right");
+        }
+        else{
+            item.classList.remove("btn-animate__overline-from-right");
+            item.classList.remove("btn-close");
+            item.classList.add("btn-animate");
+        }
+    });
 }

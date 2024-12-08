@@ -1,60 +1,19 @@
-/* styles.css */
-body {
+.colorTopRedInOrangToInPink {
+    /* 设置渐变背景 */
+    background: linear-gradient(90deg, darkred, red, gold, red, red);
+    /* 确保背景覆盖整个页面 */
+    min-height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    height: 100vh;
+    /* 优化渐变效果 */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* 固定背景，不随滚动移动 */
+    background-size: cover;
 }
 
-.sidebar {
-    background-color: #333;
-    color: white;
-    width: 250px;
-    min-width: 50px;
-    transition: width 0.3s;
-    overflow: hidden;
+a{
+    background-color: blanchedalmond;
 }
 
-.sidebar .toggle-btn {
-    background-color: #444;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-    font-size: 16px;
-    outline: none;
-}
-
-.sidebar .menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.sidebar .menu li {
-    padding: 15px;
-}
-
-.sidebar .menu li a {
-    color: white;
-    text-decoration: none;
-    display: block;
-}
-
-.sidebar .menu li a:hover {
-    background-color: #555;
-}
-
-.content {
-    flex-grow: 1;
-    padding: 20px;
-    background-color: #650909;
-}
-
-.collapsed {
-    width: 50px;
-    color: #333;
-    background-color: #252525;
+h1{
+    background-color: darkcyan;
 }
