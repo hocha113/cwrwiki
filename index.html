@@ -1,8 +1,29 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网页测试</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bottom.css">
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <div id="sidebar" class="sidebar">
+        <button id="toggleBtn" class="toggle-btn">»»»</button>
+        <ul class="menu">
+            <li><a href="#"class="btn-animate btn-animate__overline-from-right"data-action="home">Home</a></li>
+            <li><a href="#"class="btn-animate btn-animate__overline-from-right"data-action="About">About</a></li>
+            <li><a href="#"class="btn-animate btn-animate__overline-from-right"data-action="Services">Services</a></li>
+            <li><a href="#"class="btn-animate btn-animate__overline-from-right"data-action="Contact">Contact</a></li>
+            <li><a href="#"class="btn-animate btn-animate__overline-from-right"data-action="Name">Name</a></li>
+            <li><a href="#"class="btn-animate btn-animate__overline-from-right"data-action="Close" id ="CloseID">Close</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1>Welcome</h1>
+        <p>This is the main content area. The sidebar can be toggled.</p>
+    </div>
+    <script src="utils.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

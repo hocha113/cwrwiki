@@ -1,0 +1,43 @@
+.btn-animate {
+    position: relative;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #8a0746;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-close{
+    position: relative;
+    width: 30px;
+    height: 80px;
+    line-height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #3215a5;
+    color: #430c0c;
+    text-align: center;
+}
+  
+.btn-animate__overline-from-right {
+    &::before {
+      content: "";
+      position: absolute;
+      left: 100%;
+      right: 0;
+      top: 0;
+      z-index: 1;
+      height: 4px;
+      background-color: #2a0101;
+      transition: .3s ease-out;
+    }
+  
+    &:hover {
+      &::before {
+        left: 0;
+      }
+    }   
+}
