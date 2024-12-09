@@ -1,19 +1,63 @@
-.colorTopRedInOrangToInPink {
-    /* 设置渐变背景 */
-    background: linear-gradient(90deg, darkred, red, gold, red, red);
-    /* 确保背景覆盖整个页面 */
-    min-height: 100vh;
-    margin: 0;
-    /* 优化渐变效果 */
+body{
+    background-image: url("Asset/IntactLogo_workshop.png");
+    background-position: left top;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* 固定背景，不随滚动移动 */
     background-size: cover;
 }
 
-a{
-    background-color: blanchedalmond;
+img.icon{
+    position: calc(center);
 }
 
-h1{
-    background-color: darkcyan;
+#topText{
+    text-align:center;
+    color:red;
+}
+
+#topText{
+    background-color: rgb(127, 255, 212, 0);
+    background-image: url("Asset/FireDust1.gif");
+}
+
+#topText:hover{
+    color:gold;
+    background-color: brown;
+}
+
+h3{
+    text-align: right;
+    color:blueviolet;
+}
+
+h3{
+    /*background-image: url("Asset/FireDust2.gif");*/
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+h3:hover{
+    color:red;
+    background-color: bisque;
+}
+
+ul
+{
+    list-style-image: url('Asset/star.png');
+}
+
+table
+{
+    border-collapse:collapse;
+}
+table,th, td
+{
+    border: 1px solid black;
+}
+
+div{
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
 }
