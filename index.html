@@ -1,38 +1,60 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalamityOverhaul 模组 Wiki</title>
     <link rel="stylesheet" href="styles.css">
-    <title>测试网页:CSS</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1 id="topText">Hello world!</h1>
-    <h3>this is Power!</h3>
-    <hr>
-    <h3>this is Icon!</h3><img src="Asset/FireDust3.gif" class="icon">
-    <hr>
-    <ul>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Coca Cola</li>
-    </ul>
-    <hr>
-    <table>
-        <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        </tr>
-        <tr>
-        <td>Peter</td>
-        <td>Griffin</td>
-        </tr>
-        <tr>
-        <td>Lois</td>
-        <td>Griffin</td>
-        </tr>
-    </table>
-    <hr>
-    <div>这里是盒子内的实际内容。有 25px 内间距, 25px 外间距、25px 绿色边框。</div>
+    <header class="wiki-header">
+        <div class="logo">CalamityOverhaul Wiki</div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="搜索...">
+            <button onclick="performSearch()">搜索</button>
+        </div>
+    </header>
+
+    <div class="content">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">武器</a></li>
+                    <li><a href="#">改动</a></li>
+                    <li><a href="#">敌人</a></li>
+                    <li><a href="#">关于模组</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <img src="Asset/IntactLogo.png">
+            <h1>欢迎来到 CalamityOverhaul 模组 Wiki</h1>
+            <p>这是一个为 CalamityOverhaul 模组玩家和开发者提供的资料库。您可以在这里查询关于模组内容的各种信息。</p>
+
+            <div class="categories">
+                <section class="category">
+                    <h2>武器</h2>
+                    <p>浏览模组中的所有新增和改动的武器。</p>
+                </section>
+
+                <section class="category">
+                    <h2>改动</h2>
+                    <p>了解模组中对原版内容的所有调整和改动。</p>
+                </section>
+
+                <section class="category">
+                    <h2>敌人</h2>
+                    <p>查看模组中新增和调整的敌人。</p>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer class="wiki-footer">
+        <p>&copy; 2024 CalamityOverhaul Wiki. 保留所有权利。</p>
+    </footer>
 </body>
 </html>
