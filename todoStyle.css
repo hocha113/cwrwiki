@@ -1,4 +1,4 @@
-/* styles.css */
+/* error_styles.css */
 
 body {
     font-family: Arial, sans-serif;
@@ -44,10 +44,6 @@ body {
     cursor: pointer;
 }
 
-.search-bar button:hover {
-    background-color: #d2691e;
-}
-
 .content {
     display: flex;
     background-color: rgba(43, 43, 43, 0.9);
@@ -80,45 +76,25 @@ body {
 
 .main-content {
     flex-grow: 1;
-    padding: 20px;
-    background-color: rgba(59, 59, 59, 0.9);
     text-align: center;
+    padding: 40px;
+    background-color: rgba(59, 59, 59, 0.9);
+    border-radius: 8px;
+}
+
+.main-content .error-icon {
+    max-width: 150px;
+    margin-bottom: 20px;
 }
 
 .main-content h1 {
     color: #ff4500;
-    border-bottom: 2px solid #8b0000;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.main-content img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-}
-
-.categories {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.category {
-    background-color: rgba(139, 0, 0, 0.8);
-    padding: 15px;
-    border-radius: 8px;
-    text-align: center;
-    flex: 1;
-    margin: 0 10px;
-}
-
-.category h2 {
-    color: #ffffff;
-}
-
-.category p {
+.main-content p {
     color: #f0f0f0;
+    font-size: 1.1em;
 }
 
 .wiki-footer {
