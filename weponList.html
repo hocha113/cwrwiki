@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>武器列表 - CalamityOverhaul Wiki</title>
     <link rel="stylesheet" href="weponListStyle.css">
+    <link rel="stylesheet" href="searchStyle.css">
 </head>
 <body>
     <header class="wiki-header">
         <div class="logo">CalamityOverhaul Wiki</div>
-        <nav class="search-bar">
-            <input type="text" placeholder="搜索...">
-            <button>搜索</button>
-        </nav>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="搜索...">
+            <button onclick="performSearch()">搜索</button>
+        </div>
+        <div id="search-results">
+            <div class="search-result-item"></div>
+        </div>
+        <script src="searchDictionary.js" defer></script>
+        <script src="searchSystem.js"></script>
     </header>
 
     <div class="gallery-content">

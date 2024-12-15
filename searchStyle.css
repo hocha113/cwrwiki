@@ -1,0 +1,58 @@
+.search-bar {
+    display: flex;
+    justify-content: flex-end; /* 使搜索框及按钮居右 */
+    align-items: center; /* 保证垂直居中对齐 */
+    position: relative; /* 使子元素绝对定位相对于它 */
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #b22222;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #d2691e;
+}
+
+#search-results {
+    position: absolute;
+    top: 100%; /* 使搜索结果框位于 .search-bar 下方 */
+    right: 44px; /* 右对齐 */
+    background: rgb(107, 24, 24);
+    border: 1px solid #6a0303;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    width: 120px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.search-result-item {
+    padding: 5px 5px; /* 调整内边距，减少每个项的空间 */
+    font-size: 0.8em; /* 缩小字体大小 */
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #8e0f0f;
+    background-color: rgb(99, 18, 50);
+}
+
+.search-result-item:hover {
+    background-color: #7a0202;
+}
+
+.search-result-item:last-child {
+    border-bottom: none;
+}
