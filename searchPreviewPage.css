@@ -1,0 +1,44 @@
+.preview-container {
+    width: 40%;  /* 父容器宽度为视口宽度的 80% */
+    display: flex;
+    flex-direction: column;  /* 每行一个 */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.preview-item {
+    width: 100%;  /* 设置为100%，占满整个父容器的宽度 */
+    height: 200px;  /* 固定高度 */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;  /* 鼠标悬停时显示为指针 */
+    position: relative; /* 使按钮能够绝对定位 */
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* 设置 "前往该页面" 按钮的样式 */
+.go-button {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%); /* 垂直居中 */
+    padding: 5px 12px;
+    background-color: #b22222; /* 严肃的红色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    width: 20%;
+    height: 40%;
+}
+
+.go-button:hover {
+    background-color: #8b1a1a; /* 按钮悬停时的深红色 */
+}

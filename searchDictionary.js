@@ -5,7 +5,7 @@ const pageDictionary = {
     "武器列表2": "weponList.html",
     "武器列表3": "weponList.html",
     "武器列表4": "weponList.html",
-    "新增武器": "add-weapon.html",
+    "新增武器": "weponList.html",
     "改动内容": "change-log.html",
     "新增敌人": "add-enemy.html",
     "模组背景": "mod-background.html",

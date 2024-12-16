@@ -26,12 +26,13 @@ function getSimilarity(input, target) {
     return 1 - levDistance / maxLength; // 返回 0 到 1 的相似度
 }
 
+var results = null;
 
 function performSearch() {
     const searchInput = document.getElementById("search").value.toLowerCase();
     const resultsContainer = document.getElementById("search-results");
     const searchBar = document.querySelector('.search-bar'); // 获取 .search-bar
-
+    
     // 清空上次的搜索结果
     resultsContainer.innerHTML = "";
 
@@ -41,7 +42,7 @@ function performSearch() {
     }
 
     // 匹配逻辑：筛选并排序结果
-    const results = Object.keys(pageDictionary).map(item => ({
+    results = Object.keys(pageDictionary).map(item => ({
             item,
             score: getSimilarity(searchInput, item.toLowerCase())
         }))
@@ -70,8 +71,17 @@ function performSearch() {
 
             resultsContainer.appendChild(resultElement);
         });
-    } else {
+    } 
+    else {
         resultsContainer.style.display = "none";
+    }
+}
+
+function searchButton(){
+    if (results != null && results.length > 0){
+        // 将 results 数据存储到 localStorage 中
+        localStorage.setItem("searchResultKays", JSON.stringify(results));
+        window.location.href = "searchPreviewPage.html";
     }
 }
 

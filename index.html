@@ -12,8 +12,8 @@
     <header class="wiki-header">
         <div class="logo">CalamityOverhaul Wiki</div>
         <div class="search-bar">
-            <input type="text" id="search" placeholder="搜索...">
-            <button onclick="performSearch()">搜索</button>
+            <input type="text" id="search" placeholder="搜索..." onclick="performSearch()">
+            <button onclick="searchButton()">搜索</button>
         </div>
         <div id="search-results">
             <div class="search-result-item"></div>
@@ -26,7 +26,7 @@
         <aside class="sidebar">
             <nav>
                 <ul>
-                    <li><a href="#">首页</a></li>
+                    <!--首页就不要加一个‘首页’选项了-->
                     <li><a href="weponList.html">武器</a></li>
                     <li><a href="#">改动</a></li>
                     <li><a href="#">敌人</a></li>
