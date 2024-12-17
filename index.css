@@ -27,7 +27,7 @@ body {
 }
 
 .sidebar {
-    width: 200px;
+    width: 120px;
     background-color: rgba(139, 0, 0, 0.7);
     padding: 10px;
 }
@@ -72,18 +72,25 @@ body {
 }
 
 .categories {
-    display: flex;
+    display: grid;
     justify-content: space-around;
     margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* 每个元素至少150px，最多占1份宽度 */
+    gap: 15px; /* 设置每个元素之间的上下和左右间距 */
 }
 
 .category {
-    background-color: rgba(139, 0, 0, 0.8);
+    background-color: rgba(130, 0, 0, 0.8);
     padding: 15px;
     border-radius: 8px;
     text-align: center;
-    flex: 1;
-    margin: 0 10px;
+    transition: background-color 0.3s ease, height 0.3s ease, margin 0.3s ease; /* 添加过渡效果 */
+}
+
+.category:hover {
+    background-color: rgba(150, 0, 0, 1);
+    margin: 4px;
+    transition: background-color 0.3s ease, height 0.3s ease, margin 0.3s ease; /* 添加过渡效果 */
 }
 
 .category h2 {
@@ -92,6 +99,13 @@ body {
 
 .category p {
     color: #f0f0f0;
+}
+
+.category img {
+    display: block; /* 确保图片以块级元素显示，不影响其他元素排版 */
+    max-width: 40%; /* 确保图片在容器内适应大小 */
+    height: auto; /* 保持图片比例 */
+    margin: 0 auto; /* 图片居中显示 */
 }
 
 .wiki-footer {

@@ -101,3 +101,12 @@ function resetHander(result){
 // 输入框事件绑定
 const searchInput = document.getElementById("search");
 searchInput.addEventListener("input", performSearch);
+
+function initializeSC(){
+    const resultsContainer = document.getElementById("search-results");
+    resultsContainer.style.display = "none";//在绝大多数情况下它都得是none
+}
+
+window.onload = function() {
+    initializeSC();
+};
