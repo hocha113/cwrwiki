@@ -1,0 +1,30 @@
+{
+    "zh-CN": {
+        "search0": "搜索",
+        "search1": "搜索...",
+        "sidebar0": "首页",
+        "sidebar1": "武器",
+        "sidebar2": "改动",
+        "sidebar3": "敌人",
+        "sidebar4": "关于模组",
+        "title": "COWiki:页面不存在!",
+        "main0": "页面未找到",
+        "main1": "您尝试访问的页面还在施工中",
+        "main2": "您可以向开发人员反馈来催促完善该界面，或使用左侧的菜单导航至其他页面",
+        "footer": "灾厄大修 Wiki 保留所有权利."
+    },
+    "en-US": {
+        "search0": "Search",
+        "search1": "Search...",
+        "sidebar0": "Home",
+        "sidebar1": "Weapon",
+        "sidebar2": "Modify",
+        "sidebar3": "Enemy",
+        "sidebar4": "About Mod",
+        "title": "COWiki: Page not found!",
+        "main0": "Page Not Found",
+        "main1": "The page you are trying to access is still under construction",
+        "main2": "You can give feedback to the developers to urge improvement of the interface, or use the menu on the left to navigate to other pages",
+        "footer": "Calamity Overhaul Wiki All rights reserved."
+    }
+}

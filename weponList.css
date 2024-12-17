@@ -9,8 +9,8 @@ body {
 
 .gallery-content {
     display: flex;
-    background-color: rgba(43, 43, 43, 0.9);
-    margin: 20px;
+    background-color: rgba(43, 43, 43, 0.6);
+    margin: 0px;
     border-radius: 8px;
 }
 

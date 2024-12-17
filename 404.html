@@ -3,23 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>页面错误 - CalamityOverhaul Wiki</title>
+    <title>页面错误-灾厄大修Wiki</title>
     <link rel="stylesheet" href="404.css">
+    <link rel="stylesheet" href="languageSelector.css">
+    <link rel="stylesheet" href="searchTool/searchStyle.css">
 </head>
 <body>
     <div class="wiki-header">
         <div class="logo">CalamityOverhaul Wiki</div>
         <div class="search-bar">
-            <input type="text" placeholder="搜索...">
-            <button>搜索</button>
+            <input type="text" id="search" placeholder="搜索..." onclick="performSearch()">
+            <button onclick="searchButton()" id="search-button">搜索</button>
+            <button id="language-button">语言</button>
         </div>
+        <div id="search-results">
+            <div class="search-result-item"></div>
+        </div>
+        <script src="searchTool/searchDictionary.js" defer></script>
+        <script src="searchTool/searchSystem.js"></script>
     </div>
     <div class="content">
         <div class="sidebar">
             <nav>
                 <ul>
                     <li><a href="index.html">返回主页</a></li>
-                    <li><a href="weponList.html">武器列表</a></li>
+                    <li><a href="weponList.html">武器</a></li>
+                    <li><a href="#">改动</a></li>
+                    <li><a href="#">敌人</a></li>
+                    <li><a href="#">关于模组</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,8 +41,9 @@
             <p>您可以向开发人员反馈来催促完善该界面，或使用左侧的菜单导航至其他页面</p>
         </div>
     </div>
-    <div class="wiki-footer">
-        版权所有 &copy; 2024 CalamityOverhaul Wiki
-    </div>
+    <footer class="wiki-footer">
+        <p>&copy; 2024 CalamityOverhaul Wiki. 保留所有权利.</p>
+    </footer>
+    <script src="404_language.js" defer></script>
 </body>
 </html>
