@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CalamityOverhaul 模组 Wiki</title>
-    <link rel="stylesheet" href="indexStyle.css">
-    <link rel="stylesheet" href="searchStyle.css">
-    <script src="indexJSCode.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="languageSelector.css">
+    <link rel="stylesheet" href="searchTool/searchStyle.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header class="wiki-header">
-        <div class="logo">CalamityOverhaul Wiki</div>
+        <div class="logo">灾厄大修Wiki</div>
         <div class="search-bar">
             <input type="text" id="search" placeholder="搜索..." onclick="performSearch()">
-            <button onclick="searchButton()">搜索</button>
+            <button onclick="searchButton()" id="search-button">搜索</button>
+            <button id="language-button">语言</button>
         </div>
         <div id="search-results">
             <div class="search-result-item"></div>
         </div>
-        <script src="searchDictionary.js" defer></script>
-        <script src="searchSystem.js"></script>
+        <script src="searchTool/searchDictionary.js" defer></script>
+        <script src="searchTool/searchSystem.js"></script>
     </header>
 
     <div class="content">
@@ -37,23 +39,23 @@
 
         <main class="main-content">
             <img src="Asset/IntactLogo.png">
-            <h1>欢迎来到 CalamityOverhaul 模组 Wiki</h1>
-            <p>这是一个为 CalamityOverhaul 模组玩家和开发者提供的资料库。您可以在这里查询关于模组内容的各种信息。</p>
-
+            <h1>欢迎来到灾厄大修Wiki</h1>
+            <p>这是一个为灾厄大修玩家和开发者提供的资料库，您可以在这里查询关于模组内容的各种信息</p>
+        
             <div class="categories">
                 <section class="category">
                     <h2>武器</h2>
-                    <p>浏览模组中的所有新增和改动的武器。</p>
+                    <p>浏览模组中的所有新增和改动的武器</p>
                 </section>
-
+        
                 <section class="category">
                     <h2>改动</h2>
-                    <p>了解模组中对原版内容的所有调整和改动。</p>
+                    <p>了解模组中对原版内容的所有调整和改动</p>
                 </section>
-
+        
                 <section class="category">
                     <h2>敌人</h2>
-                    <p>查看模组中新增和调整的敌人。</p>
+                    <p>查看模组中新增和调整的敌人</p>
                 </section>
             </div>
         </main>
@@ -62,5 +64,6 @@
     <footer class="wiki-footer">
         <p>&copy; 2024 CalamityOverhaul Wiki. 保留所有权利.</p>
     </footer>
+    <script src="languageSelector.js" defer></script>
 </body>
 </html>

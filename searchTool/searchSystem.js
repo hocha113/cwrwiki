@@ -79,6 +79,10 @@ function performSearch() {
 
 function searchButton(){
     if (results != null && results.length > 0){
+        if (results.length == 1){
+            window.location.href = pageDictionary[results[0]];
+            return;
+        }
         // 将 results 数据存储到 localStorage 中
         localStorage.setItem("searchResultKays", JSON.stringify(results));
         window.location.href = "searchPreviewPage.html";

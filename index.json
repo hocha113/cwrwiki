@@ -1,0 +1,40 @@
+{
+    "zh-CN": {
+        "search0": "搜索",
+        "search1": "搜索...",
+        "sidebar0": "武器",
+        "sidebar1": "改动",
+        "sidebar2": "敌人",
+        "sidebar3": "关于模组",
+        "title": "灾厄大修 Wiki",
+        "welcome": "欢迎来到灾厄大修 Wiki",
+        "description": "这是一个为灾厄大修玩家和开发者提供的资料库，您可以在这里查询关于模组内容的各种信息。",
+        "weapons": "武器",
+        "weapons_desc": "浏览模组中的所有新增和改动的武器。",
+        "changes": "改动",
+        "changes_desc": "了解模组中对原版内容的所有调整和改动。",
+        "enemies": "敌人",
+        "enemies_desc": "查看模组中新增和调整的敌人。",
+        "about": "关于模组",
+        "footer": "灾厄大修 Wiki 保留所有权利."
+    },
+    "en-US": {
+        "search0": "Search",
+        "search1": "Search...",
+        "sidebar0": "Weapon",
+        "sidebar1": "Modify",
+        "sidebar2": "Enemy",
+        "sidebar3": "About Mod",
+        "title": "Calamity Overhaul Wiki",
+        "welcome": "Welcome to the Calamity Overhaul Wiki",
+        "description": "This is a repository for Calamity Overhaul players and developers. You can find various information about the mod here.",
+        "weapons": "Weapons",
+        "weapons_desc": "Browse all new and modified weapons in the mod.",
+        "changes": "Changes",
+        "changes_desc": "Learn about all adjustments and modifications to the vanilla content in the mod.",
+        "enemies": "Enemies",
+        "enemies_desc": "Check out the new and adjusted enemies in the mod.",
+        "about": "About the Mod",
+        "footer": "Calamity Overhaul Wiki All rights reserved."
+    }
+}  

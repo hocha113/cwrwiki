@@ -1,0 +1,13 @@
+#language-button {
+    padding: 5px 10px;
+    background-color: #b22222; /* 严肃的红色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+#language-button:hover {
+    background-color: #8b0000; /* 深红色，按钮悬停效果 */
+}
