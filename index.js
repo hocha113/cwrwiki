@@ -14,28 +14,30 @@ categories.forEach(function(category) {
     });
 });
 
-// 为每个 .category 元素添加鼠标进入事件监听器
-categories.forEach(category => {
-    category.addEventListener('mouseenter', function() {
-        // 防止音效快速重复播放
-        if (!isSoundPlaying) {
-            isSoundPlaying = true;
-            soundEffect.currentTime = 0;  // 重置播放时间
-            soundEffect.play();
-        }
-    });
+//愚蠢的声音设计
+// // 为每个 .category 元素添加鼠标进入事件监听器
+// categories.forEach(category => {
+//     category.addEventListener('mouseenter', function() {
+//         // 防止音效快速重复播放
+//         if (!isSoundPlaying) {
+//             isSoundPlaying = true;
+//             soundEffect.currentTime = 0;  // 重置播放时间
+//             soundEffect.play();
+//         }
+//     });
 
-    // 当鼠标离开时，重置 isSoundPlaying 标记
-    category.addEventListener('mouseleave', function() {
-        isSoundPlaying = false;
-    });
-});
+//     // 当鼠标离开时，重置 isSoundPlaying 标记
+//     category.addEventListener('mouseleave', function() {
+//         isSoundPlaying = false;
+//     });
+// });
 
 function HanderCategoryEvent(id){
     // 这个函数用于处理主页窗口的调整逻辑，注意id必须是一个可以转换为数字的值
+    const currentLang = localStorage.getItem('selectedLanguage');
     switch(Number(id)){
         case 1:
-            window.location.href = "weponList.html";
+            window.location.href = currentLang === 'zh-CN' ?  "cn/core/weaponList.html" : "/index.html";
             break;
     }
 }
