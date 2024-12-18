@@ -28,7 +28,7 @@
             <nav>
                 <ul>
                     <li><a href="/index.html">返回主页</a></li>
-                    <li><a href="/weaponList.html">其他武器</a></li>
+                    <li><a href="/cn/core/weaponList.html">其他武器</a></li>
                     <li><a href="#">改动</a></li>
                     <li><a href="#">敌人</a></li>
                     <li><a href="#">关于模组</a></li>
@@ -38,25 +38,44 @@
 
         <main class="main-content">
             <h1>海爵剑</h1>
-            <button id ="cay_button">
+            <p> 
+                海爵剑是一把困难模式下的阔剑类武器，掉落自猪龙鱼公爵，它可以左键长按自动使用<br>
+                它的一个攻击周期为三个阶段<br>
+                第一阶段分为六次挥舞，刀刃会造成1倍的武器面板伤害，并且每次挥舞会发射出一颗追踪敌人的海漩涡<br>
+                第二阶段为一次大范围的挥砍，刀刃会造成2倍的武器面板伤害，并向四周甩出大量分散的爆炸泡泡<br>
+                第三阶段刀刃会指向鼠标方向，发射出三枚漩涡弹，漩涡弹接触物块或者击中敌人后会爆炸，并在原地生成一个很快就会消失的水龙卷<br>
+                它的最佳前缀是传奇
+            </p>
+            <img src="BrinyBaron.gif" alt="BrinyBaronUseGIF" width=600>
+            <p>
+                漩涡弹拥有1.5倍的武器面板伤害，但其接触爆炸并没有实际的范围伤害，别被爆炸的粒子效果骗了<br>
+                而漩涡弹生成的水龙卷伤害只有其的一半，也就是0.75倍武器面板伤害，水龙卷会对接触到的敌人造成潮湿减益
+            </p>
+            <p class="extra-tip">——海爵剑是灾厄大修模组第一个修改的武器，它经历过两次重做</p>
+            <button id ="href_button">
                 <a href="https://calamitymod.wiki.gg/wiki/Briny_Baron">查看原版信息</a>
             </button>
-            <p> 
-                前六下挥舞发射追踪的海洋漩涡<br>
-                第七下挥舞会生成大量爆炸泡泡<br>
-                第八下挥舞会发射三颗漩涡弹，击中目标或者物块后在原地生成水龙卷
-            </p>
-            <img src="BrinyBaron.gif" alt="BrinyBaronUseGIF" width="50%">
+            <button id ="href_button">
+                <a href="https://github.com/hocha113/CalamityOverhaul/blob/main/Content/Items/Melee/BrinyBaronEcType.cs">查看代码实现</a>
+            </button>
         </main>
 
         <div class="image-block">
+            <h1 class="img-Item-Title">海爵剑</h1>
             <img src="/Asset/weapon/BrinyBaron.png" alt="BrinyBaron">
-            <p>内部名:BrinyBaron</p>
-            <p>伤害:110</p>
-            <p>击退:2</p>
-            <p>使用时间:20</p>
-            <p>"用那头猪鲨的鳍制成，显然我们并不屑于只用那个会吹泡泡的猪头当武器"</p>   
-        </div>
+            <p class="item-id">内部名: BrinyBaron</p>
+            <p class="item-property">基本属性</p>
+            <p class="item-damage">伤害: 110</p>
+            <p class="item-knockback">击退: 2</p>
+            <p class="item-usetimer">使用时间: 20</p>
+            <p class="item-property">物品介绍</p>
+            <p class="item-description">
+                前六下挥舞发射追踪的海洋漩涡<br>
+                第七下挥舞会生成大量爆炸泡泡<br>
+                第八下挥舞会发射三颗漩涡弹，击中目标或者物块后在原地生成水龙卷<br>
+                "用那头猪鲨的鳍制成，显然我们并不屑于只用那个会吹泡泡的猪头当武器"
+            </p>
+        </div>        
     </div>
 
     <footer class="wiki-footer">

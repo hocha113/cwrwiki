@@ -7,6 +7,20 @@ body {
     color: #ffffff;
 }
 
+.wiki-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(139, 0, 0, 0.8);
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+.wiki-header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 .weapon-content {
     display: flex;
     background-color: rgba(43, 43, 43, 0.9);
@@ -55,10 +69,11 @@ body {
 
 .image-block {
     width: 300px;
-    text-align: center;
+    text-align: left; /* 默认左对齐 */
     background-color: rgba(82, 80, 57, 0.9);
     border-radius: 8px;
     padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .image-block img {
@@ -67,41 +82,92 @@ body {
     background-color: #627461;
 }
 
+/* 为按钮设置样式 */
+#href_button {
+    background-color: #76584e;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+}
+
+#href_button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#href_button:hover {
+    background-color: #9e1b1b;
+}
+
+#href_button a:hover {
+    color: #f0f0f0;
+}
+
 .image-block p {
     font-size: 0.9em;
     margin: 5px 0;
     color: #dcdcdc;
 }
 
-.wiki-header .logo {
-    font-size: 1.5em;
-    font-weight: bold;
+.image-block .img-Item-Title {
+    text-align: center;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #3a3838;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
- /* 为按钮设置样式 */
- #cay_button {
-    background-color: #4e766d;  /* 红色背景 */
-    border: none;  /* 去掉默认的边框 */
-    padding: 4px 10px;  /* 内边距，增加按钮的大小 */
-    border-radius: 5px;  /* 圆角效果 */
-    cursor: pointer;  /* 鼠标悬停时显示为点击手指 */
-    font-size: 12px;  /* 字体大小 */
-    text-align: center;  /* 文字居中 */
-  }
+/* 具体信息栏样式 */
+.image-block .item-id {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #a8e6cf;
+}
 
-  /* 链接的样式 */
-  #cay_button a {
-    color: white;  /* 字体颜色为白色 */
-    text-decoration: none;  /* 去掉下划线 */
-    font-weight: bold;  /* 加粗字体 */
-  }
+.image-block .item-property {
+    text-align: center;
+    font-size: 0.8em;
+    color: #ffffff;
+    background-color: #3a3838;
+    padding: 6px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-top: 14px;
+}
 
-  /* 鼠标悬停时的按钮样式 */
-  #cay_button:hover {
-    background-color: #9e1b1b;  /* 鼠标悬停时背景颜色稍微变深 */
-  }
+.image-block .item-damage {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #ff8b8b;
+}
 
-  /* 鼠标悬停时的链接样式 */
-  #cay_button a:hover {
-    color: #f0f0f0;  /* 鼠标悬停时链接文字颜色变化 */
-  }
+.image-block .item-knockback {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+.image-block .item-usetimer {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #87ceeb;
+}
+
+.image-block .item-description {
+    margin-top: 10px;
+    font-style: italic;
+    color: #f0e68c;
+}
+
+.extra-tip{
+    margin-top: 10px;
+    font-size: 0.7em;
+    font-style: italic;
+    color: #f0e68c;
+}

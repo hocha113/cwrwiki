@@ -84,6 +84,7 @@ body {
     padding: 15px;
     border-radius: 8px;
     text-align: center;
+    margin: 10px;
     transition: background-color 0.3s ease, height 0.3s ease, margin 0.3s ease; /* 添加过渡效果 */
 }
 
@@ -102,9 +103,10 @@ body {
 }
 
 .category img {
-    display: block; /* 确保图片以块级元素显示，不影响其他元素排版 */
-    max-width: 40%; /* 确保图片在容器内适应大小 */
-    height: auto; /* 保持图片比例 */
+    display: block; /* 确保图片为块级元素 */
+    width: 100px; /* 设置统一宽度 */
+    height: 100px; /* 设置统一高度 */
+    object-fit: contain; /* 保持图片比例，填充到设定尺寸 */
     margin: 0 auto; /* 图片居中显示 */
 }
 
