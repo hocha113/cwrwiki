@@ -72,3 +72,36 @@ body {
     margin: 5px 0;
     color: #dcdcdc;
 }
+
+.wiki-header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+ /* 为按钮设置样式 */
+ #cay_button {
+    background-color: #4e766d;  /* 红色背景 */
+    border: none;  /* 去掉默认的边框 */
+    padding: 4px 10px;  /* 内边距，增加按钮的大小 */
+    border-radius: 5px;  /* 圆角效果 */
+    cursor: pointer;  /* 鼠标悬停时显示为点击手指 */
+    font-size: 12px;  /* 字体大小 */
+    text-align: center;  /* 文字居中 */
+  }
+
+  /* 链接的样式 */
+  #cay_button a {
+    color: white;  /* 字体颜色为白色 */
+    text-decoration: none;  /* 去掉下划线 */
+    font-weight: bold;  /* 加粗字体 */
+  }
+
+  /* 鼠标悬停时的按钮样式 */
+  #cay_button:hover {
+    background-color: #9e1b1b;  /* 鼠标悬停时背景颜色稍微变深 */
+  }
+
+  /* 鼠标悬停时的链接样式 */
+  #cay_button a:hover {
+    color: #f0f0f0;  /* 鼠标悬停时链接文字颜色变化 */
+  }

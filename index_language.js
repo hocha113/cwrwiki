@@ -13,7 +13,7 @@ async function updateContent(lang) {
     const content = await loadLanguageData(lang);
 
     // 设置页面内容
-    document.title = content.title;
+    document.title = content.title2;
     document.querySelector('.logo').textContent = content.title;
     document.querySelector('h1').textContent = content.welcome;
     document.querySelector('p').textContent = content.description;

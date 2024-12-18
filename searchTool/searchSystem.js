@@ -85,7 +85,7 @@ function searchButton(){
         }
         // 将 results 数据存储到 localStorage 中
         localStorage.setItem("searchResultKays", JSON.stringify(results));
-        window.location.href = "searchPreviewPage.html";
+        window.location.href = "/searchPreviewPage.html";
     }
 }
 
