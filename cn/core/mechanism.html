@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>机制介绍-灾厄大修Wiki</title>
+    <link rel="icon" href="/Asset/other/icon_small.png" type="image/x-icon">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/pwertList.css">
+    <link rel="stylesheet" href="/languageSelector.css">
+    <link rel="stylesheet" href="/searchTool/searchStyle.css">
+</head>
+<body>
+    <header class="wiki-header">
+        <div class="logo">灾厄大修Wiki</div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="搜索..." onclick="performSearch()">
+            <button onclick="searchButton()" id="search-button">搜索</button>
+            <button id="language-button">🌐Switch to English</button>
+        </div>
+        <div id="search-results">
+            <div class="search-result-item"></div>
+        </div>
+        <script src="/searchTool/searchDictionary.js" defer></script>
+        <script src="/searchTool/searchSystem.js"></script>
+    </header>
+
+    <div class="gallery-content">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">返回主页</a></li>
+                    <li><a href="/cn/core/weaponList.html">武器</a></li>
+                    <li><a href="/cn/core/biology.html">生物</a></li>
+                    <li><a href="/cn/core/aboutMod.html">关于模组</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1>机制内容</h1>
+            <p>灾厄大修调整和更改了不少机制，比如小到物品的配方合成，大到世界的地形生成和天气</p>
+            <div class="weapon-grid">
+                
+            </div>
+        </main>
+    </div>
+
+    <footer class="wiki-footer">
+        &copy; 2024 CalamityOverhaul Wiki. 保留所有权利.
+    </footer>
+</body>
+</html>

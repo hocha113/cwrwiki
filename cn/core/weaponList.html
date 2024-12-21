@@ -16,6 +16,7 @@
         <div class="search-bar">
             <input type="text" id="search" placeholder="搜索..." onclick="performSearch()">
             <button onclick="searchButton()" id="search-button">搜索</button>
+            <button id="language-button">🌐Switch to English</button>
         </div>
         <div id="search-results">
             <div class="search-result-item"></div>
@@ -29,49 +30,70 @@
             <nav>
                 <ul>
                     <li><a href="/index.html">返回主页</a></li>
-                    <li><a href="#">改动</a></li>
-                    <li><a href="#">敌人</a></li>
-                    <li><a href="#">关于模组</a></li>
+                    <li><a href="/cn/core/mechanism.html">机制</a></li>
+                    <li><a href="/cn/core/biology.html">生物</a></li>
+                    <li><a href="/cn/core/aboutMod.html">关于模组</a></li>
                 </ul>
             </nav>
         </aside>
 
         <main class="main-content">
             <h1>武器列表</h1>
-            <p>点击任何武器以查看详细信息。</p>
+            <p>点击任何武器以查看详细信息</p>
             <div class="weapon-grid">
                 <div class="weapon-item" onclick="location.href='/cn/weapon/BrinyBaron.html'">
-                    <img src="/cn/weapon/BrinyBaron.png" alt="BrinyBaron">
+                    <div class="image-container">
+                        <img src="/cn/weapon/BrinyBaron.png" alt="BrinyBaron">
+                    </div>
+
                     <p>海爵剑</p>
                 </div>
 
                 <div class="weapon-item" onclick="location.href='/cn/weapon/BansheeHook.html'">
-                    <img src="/cn/weapon/BansheeHook.png" alt="BansheeHook">
+                    <div class="image-container">
+                        <img src="/cn/weapon/BansheeHook.png" alt="BansheeHook">
+                    </div>
+                    
                     <p>女妖之爪</p>
                 </div>
 
                 <div class="weapon-item" onclick="location.href='/cn/weapon/BlightedCleaver.html'">
-                    <img src="/cn/weapon/BlightedCleaver.png" alt="BlightedCleaver">
+                    <div class="image-container">
+                        <img src="/cn/weapon/BlightedCleaver.png" alt="BlightedCleaver">
+                    </div>
+                    
                     <p>凋亡屠刀</p>
                 </div>
 
                 <div class="weapon-item" onclick="location.href='/cn/weapon/BurntSienna.html'">
-                    <img src="/cn/weapon/BurntSienna.png" alt="BurntSienna">
+                    <div class="image-container">
+                        <img src="/cn/weapon/BurntSienna.png" alt="BurntSienna">
+                    </div>
+                    
                     <p>灼炎弯刀</p>
                 </div>
 
                 <div class="weapon-item" onclick="location.href='/cn/weapon/CometQuasher.html'">
-                    <img src="/cn/weapon/CometQuasher.png" alt="CometQuasher">
+                    <div class="image-container">
+                        <img src="/cn/weapon/CometQuasher.png" alt="CometQuasher">
+                    </div>
+                    
                     <p>彗星陨刃</p>
                 </div>
 
                 <div class="weapon-item" onclick="location.href='/cn/weapon/DefiledGreatsword.html'">
-                    <img src="/cn/weapon/DefiledGreatsword.png" alt="DefiledGreatsword">
+                    <div class="image-container">
+                        <img src="/cn/weapon/DefiledGreatsword.png" alt="DefiledGreatsword">
+                    </div>
+                    
                     <p>神殇巨剑</p>
                 </div>
 
                 <div class="weapon-item" onclick="location.href='/cn/weapon/EntropicClaymore.html'">
-                    <img src="/cn/weapon/EntropicClaymore.png" alt="EntropicClaymore">
+                    <div class="image-container">
+                        <img src="/cn/weapon/EntropicClaymore.png" alt="EntropicClaymore">
+                    </div>
+                    
                     <p>熵之舞</p>
                 </div>
             </div>

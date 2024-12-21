@@ -36,7 +36,7 @@ async function updateContent(lang) {
 
     // 更新语言按钮
     const languageButton = document.getElementById('language-button');
-    languageButton.textContent = lang === 'zh-CN' ? 'Switch to English' : '切换为中文';
+    languageButton.textContent = lang === 'zh-CN' ? '🌐Switch to English' : '🌐切换为中文';
 }
 
 // 切换语言

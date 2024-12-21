@@ -11,59 +11,55 @@
 </head>
 <body>
     <header class="wiki-header">
-        <div class="logo">灾厄大修Wiki</div>
+        <div class="logo">灾厄大修<span>Wiki</span></div>
         <div class="search-bar">
-            <input type="text" id="search" placeholder="搜索..." onclick="performSearch()">
-            <button onclick="searchButton()" id="search-button">搜索</button>
-            <button id="language-button">语言</button>
+            <input type="text" id="search" placeholder="搜索...">
+            <button onclick="searchButton()" id="search-button">🔍搜索</button>
+            <button id="language-button">🌐语言</button>
         </div>
         <div id="search-results">
             <div class="search-result-item"></div>
         </div>
-        <script src="searchTool/searchDictionary.js" defer></script>
-        <script src="searchTool/searchSystem.js"></script>
+        <script src="/searchTool/searchDictionary.js" defer></script>
+        <script src="/searchTool/searchSystem.js"></script>
     </header>
 
     <div class="content">
         <aside class="sidebar">
             <nav>
                 <ul>
-                    <!--首页就不要加一个‘首页’选项了-->
-                    <!--<li><a href="index.html">返回主页</a></li>--> 
-                    <li><a href="cn/core/weaponList.html">武器</a></li>
-                    <li><a href="#">改动</a></li>
-                    <li><a href="#">生物</a></li>
-                    <li><a href="#">关于模组</a></li>
+                    <li><a href="/cn/core/weaponList.html">武器</a></li>
+                    <li><a href="/cn/core/mechanism.html">机制</a></li>
+                    <li><a href="/cn/core/biology.html">生物</a></li>
+                    <li><a href="/cn/core/aboutMod.html">关于模组</a></li>
                 </ul>
             </nav>
         </aside>
 
         <main class="main-content">
-            <img src="Asset/IntactLogo.png">
+            <img src="Asset/IntactLogo.png" alt="Logo">
             <h1>欢迎来到灾厄大修Wiki</h1>
             <p>这是一个为灾厄大修玩家和开发者提供的资料库，您可以在这里查询关于模组内容的各种信息</p>
             
             <div class="categories">
                 <section class="category" id = "1">
-                    <img src="Asset/weapon/DragonsWord.png">
+                    <img src="Asset/weapon/DragonsWord.png" alt="武器图标">
                     <h2>武器</h2>
                     <p>浏览模组中的所有新增的武器</p>
                 </section>
         
                 <section class="category" id = "2">
-                    <img src="Asset/other/Splash_9_1.png">
-                    <h2>改动</h2>
-                    <p>了解模组中对原版内容的所有调整和改动</p>
+                    <img src="cn/box/DBCBox.png" alt="机制调整图标">
+                    <h2>机制调整</h2>
+                    <p>查看关于特殊机制的内容</p>
                 </section>
         
                 <section class="category" id = "3">
-                    <img src="Asset/npc/skullKing.gif" width="100" height="100">
-                    <h2>敌人</h2>
-                    <p>查看模组中新增和调整的敌人</p>
+                    <img src="Asset/npc/skullKing.gif" alt="生物图标">
+                    <h2>生物</h2>
+                    <p>查看模组中新增和调整的生物</p>
                 </section>
             </div>
-
-            <audio id="soundEffect" src="Asset/sound/bookUpe.ogg"></audio>
         </main>
     </div>
 
