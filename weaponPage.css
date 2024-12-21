@@ -171,3 +171,11 @@ body {
     font-style: italic;
     color: #f0e68c;
 }
+
+.pwertGIF {
+    width: 40%;         /* 默认宽度为父容器的 40% */
+    max-width: 600px;   /* 最大宽度为 600 像素 */
+    height: auto;       /* 保持图片比例 */
+    display: block;     /* 确保图片单独占一行 */
+    margin: 0;     /* 居中显示 */
+}

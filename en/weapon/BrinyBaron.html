@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Briny Baron-COMod Wiki</title>
+    <link rel="icon" href="/Asset/other/icon_small.png" type="image/x-icon">
+    <link rel="stylesheet" href="/languageSelector.css">
+    <link rel="stylesheet" href="/searchTool/searchStyle.css">
+    <link rel="stylesheet" href="/weaponPage.css">
+</head>
+<body>
+    <header class="wiki-header">
+        <div class="logo">Calamity Overhaul Wiki</div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search..." onclick="performSearch()">
+            <button onclick="searchButton()" id="search-button">Search</button>
+        </div>
+        <div id="search-results">
+            <div class="search-result-item"></div>
+        </div>
+        <script src="/searchTool/searchDictionary.js" defer></script>
+        <script src="/searchTool/searchSystem.js"></script>
+    </header>
+
+    <div class="weapon-content">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/en/core/weaponList.html">Other Weapons</a></li>
+                    <li><a href="#">Modify</a></li>
+                    <li><a href="#">Enemy</a></li>
+                    <li><a href="#">About Mod</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1>Briny Baron</h1>
+            <p> 
+                Sea Lord Sword is a broadsword weapon in Hard mode, dropped from the Arowana Duke, it can be left and long press automatically use <br>
+                It has an attack cycle of three stages <br>
+                The first stage is divided into six swings, the blade deals 1 times the weapon panel damage, and each swing launches a sea vortex that tracks the enemy.<br>
+                The second stage is a wide slash, the blade deals twice the damage of the weapon panel and sends a large number of scattered exploding bubbles around.<br>
+                In the third stage, the blade points in the direction of the mouse and fires three vortex shells, which explode when they touch objects or hit enemies, creating a water spout in place that will soon disappear.<br>
+                Its best prefix is legend
+            </p>
+            <img src="/cn/weapon/BrinyBaron.gif" class="pwertGIF" alt="BrinyBaronUseGIF">
+            <p>
+                Vortex rounds have 1.5 times the weapon panel damage, but their contact explosion does no actual range damage, don't let the particle effect of the explosion fool you.<br>
+                The Whirlpool bullet inflicts half as much damage as the waterspout, which is 0.75 times the weapon panel damage, dealing dampness to enemies it touches
+            </p>
+            <p class="extra-tip">——The Sea Lord Sword was the first weapon to be modified in the Calamity Overhaul Mod, and it has undergone two reworks</p>
+            <button id ="href_button">
+                <a href="https://calamitymod.wiki.gg/wiki/Briny_Baron">View Original Information</a>
+            </button>
+            <button id ="href_button">
+                <a href="https://github.com/hocha113/CalamityOverhaul/blob/main/Content/Items/Melee/BrinyBaronEcType.cs">View Code Implementation</a>
+            </button>
+        </main>
+
+        <div class="image-block">
+            <h1 class="img-Item-Title">Briny Baron</h1>
+            <img src="/Asset/weapon/BrinyBaron.png" alt="BrinyBaron">
+            <p class="item-id">FullName: BrinyBaron</p>
+            <p class="item-property">Basic Parameters</p>
+            <p class="item-damage">Damage: 110</p>
+            <p class="item-knockback">Knockback: 2</p>
+            <p class="item-usetimer">UseTime: 20</p>
+            <p class="item-property">Tooptip</p>
+            <p class="item-description">
+                The first six swings release tracking ocean vortices.<br>
+			    The seventh swing generates a large number of explosive bubbles.<br>
+			    The eighth swing fires three vortex bombs that, upon hitting a target or object, create a water vortex at the impact site.<br>
+			    "Made from the fin of that pig shark, clearly we didn't settle for just using that bubble-blowing pig head as a weapon."
+            </p>
+        </div>        
+    </div>
+
+    <footer class="wiki-footer">
+        &copy; 2024 CalamityOverhaul Wiki. 保留所有权利.
+    </footer>
+</body>
+</html>

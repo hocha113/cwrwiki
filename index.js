@@ -34,10 +34,10 @@ categories.forEach(function(category) {
 
 function HanderCategoryEvent(id){
     // 这个函数用于处理主页窗口的调整逻辑，注意id必须是一个可以转换为数字的值
-    const currentLang = localStorage.getItem('selectedLanguage');
+    const currentLang = localStorage.getItem('selectedLanguage') || "zh-CN";
     switch(Number(id)){
         case 1:
-            window.location.href = currentLang === 'zh-CN' ?  "cn/core/weaponList.html" : "/index.html";
+            window.location.href = currentLang === 'zh-CN' ?  "cn/core/weaponList.html" : "en/core/weaponList.html";
             break;
     }
 }
