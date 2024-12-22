@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>死亡冰雹-灾厄大修Wiki</title>
+    <link rel="icon" href="/Asset/other/icon_small.png" type="image/x-icon">
+    <link rel="stylesheet" href="/languageSelector.css">
+    <link rel="stylesheet" href="/searchTool/searchStyle.css">
+    <link rel="stylesheet" href="/weaponPage.css">
+</head>
+<body>
+    <header class="wiki-header">
+        <div class="logo">灾厄大修Wiki</div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="搜索..." onclick="performSearch()">
+            <button onclick="searchButton()" id="search-button">搜索</button>
+        </div>
+        <div id="search-results">
+            <div class="search-result-item"></div>
+        </div>
+        <script src="/searchTool/searchDictionary.js" defer></script>
+        <script src="/searchTool/searchSystem.js"></script>
+    </header>
+
+    <div class="weapon-content">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">返回主页</a></li>
+                    <li><a href="/cn/core/weaponList.html">其他武器</a></li>
+                    <li><a href="/cn/core/mechanism.html">机制</a></li>
+                    <li><a href="/cn/core/biology.html">生物</a></li>
+                    <li><a href="/cn/core/aboutMod.html">关于模组</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1>死亡冰雹</h1>
+            <p> 
+                死亡冰雹是一把月球领主后的法师武器，用宇宙锭制作。<br>
+                死亡冰雹鼠标左键会令大量的死亡冰雹从天而降。<br>
+                它的最佳前缀是神话
+            </p>
+            <img src="DeathhailStaff.png" alt="DeathhailStaff" width=600>
+            <p class="extra-tip">——额外tip</p>
+            <button id ="href_button">
+                <a href="https://calamitymod.wiki.gg/wiki/Deathhail_Staff">查看原版信息</a>
+            </button>
+            <button id ="href_button">
+                <a href="https://github.com/hocha113/CalamityOverhaul">查看代码实现</a>
+            </button>
+        </main>
+
+        <div class="image-block">
+            <h1 class="img-Item-Title">死亡冰雹</h1>
+            <img src="DeathhailStaff.png" alt="DeathhailStaff">
+            <p class="item-id">内部名: 死亡冰雹</p>
+            <p class="item-property">基本属性</p>
+            <p class="item-damage">伤害: 328</p>
+            <p class="item-knockback">击退: 4</p>
+            <p class="item-usetimer">使用时间: 11</p>
+            <p class="item-property">物品介绍</p>
+            <p class="item-description">
+                令大量的死亡冰雹从天而降<br>
+                "宇宙中也会下冰雹吗？这或许是一场毁灭性的彗星雨"
+            </p>
+        </div>        
+    </div>
+
+    <footer class="wiki-footer">
+        &copy; 2024 CalamityOverhaul Wiki. 保留所有权利.
+    </footer>
+</body>
+</html>
