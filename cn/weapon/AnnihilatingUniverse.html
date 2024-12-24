@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>湮宇星矢-灾厄大修Wiki</title>
+    <link rel="icon" href="/Asset/other/icon_small.png" type="image/x-icon">
+    <link rel="stylesheet" href="/languageSelector.css">
+    <link rel="stylesheet" href="/searchTool/searchStyle.css">
+    <link rel="stylesheet" href="/weaponPage.css">
+</head>
+<body>
+    <header class="wiki-header">
+        <div class="logo">灾厄大修Wiki</div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="搜索..." onclick="performSearch()">
+            <button onclick="searchButton()" id="search-button">搜索</button>
+        </div>
+        <div id="search-results">
+            <div class="search-result-item"></div>
+        </div>
+        <script src="/searchTool/searchDictionary.js" defer></script>
+        <script src="/searchTool/searchSystem.js"></script>
+    </header>
+
+    <div class="weapon-content">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">返回主页</a></li>
+                    <li><a href="/cn/core/weaponList.html">其他武器</a></li>
+                    <li><a href="/cn/core/mechanism.html">机制</a></li>
+                    <li><a href="/cn/core/biology.html">生物</a></li>
+                    <li><a href="/cn/core/aboutMod.html">关于模组</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1>湮宇星矢</h1>
+            <p> 
+                湮宇星矢是一把月球领主后的远程武器，属于无尽科技武器，可在欧米茄物质聚合仪处合成。<br>
+                湮宇星矢会将所有箭矢转化为湮宇箭，箭矢击中敌人后在原地留下一颗璀璨之星。<br>
+                右键以噬神者之力摧毁敌人。<br>
+                它的最佳前缀是虚幻
+            </p>
+            <img src="AnnihilatingUniverse.png" alt="AnnihilatingUniverse" width=600>
+            <p>
+                湮宇箭完全造成武器面板的伤害；<br>
+                右键的噬神者之力召唤的神明吞噬者之影可造成武器面板的三分之一伤害，并且忽略部分无敌帧。
+            </p>
+            <p class="extra-tip">——“肝，也是一种获取力量的手段（怎么神吞还不给我死亡之风）”</p>
+            <button id ="href_button">
+                <a href="https://calamitymod.wiki.gg/wiki">查看原版信息</a>
+            </button>
+            <button id ="href_button">
+                <a href="https://github.com/hocha113/CalamityOverhaul">查看代码实现</a>
+            </button>
+        </main>
+
+        <div class="image-block">
+            <h1 class="img-Item-Title">湮宇星矢</h1>
+            <img src="AnnihilatingUniverse.png" alt="AnnihilatingUniverse">
+            <p class="item-id">内部名: AnnihilatingUniverse</p>
+            <p class="item-property">基本属性</p>
+            <p class="item-damage">伤害: 1050</p>
+            <p class="item-knockback">击退: 4</p>
+            <p class="item-usetimer">使用时间: 12</p>
+            <p class="item-property">物品介绍</p>
+            <p class="item-description">
+                “传说中神明吞噬者被遗忘的脊椎，具有无以伦比的力量，可召唤神明吞噬者之影来追杀敌人”
+            </p>
+        </div>        
+    </div>
+
+    <footer class="wiki-footer">
+        &copy; 2024 CalamityOverhaul Wiki. 保留所有权利.
+    </footer>
+</body>
+</html>
