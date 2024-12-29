@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鬼妖村正-灾厄大修Wiki</title>
+    <link rel="icon" href="/Asset/other/icon_small.png" type="image/x-icon">
+    <link rel="stylesheet" href="/languageSelector.css">
+    <link rel="stylesheet" href="/searchTool/searchStyle.css">
+    <link rel="stylesheet" href="/weaponPage.css">
+</head>
+<body>
+    <header class="wiki-header">
+        <div class="logo">灾厄大修Wiki</div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="搜索..." onclick="performSearch()">
+            <button onclick="searchButton()" id="search-button">搜索</button>
+        </div>
+        <div id="search-results">
+            <div class="search-result-item"></div>
+        </div>
+        <script src="/searchTool/searchDictionary.js" defer></script>
+        <script src="/searchTool/searchSystem.js"></script>
+    </header>
+
+    <div class="weapon-content">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">返回主页</a></li>
+                    <li><a href="/cn/core/weaponList.html">其他武器</a></li>
+                    <li><a href="/cn/core/mechanism.html">机制</a></li>
+                    <li><a href="/cn/core/biology.html">生物</a></li>
+                    <li><a href="/cn/core/aboutMod.html">关于模组</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1>鬼妖村正</h1>
+            <p> 
+                鬼妖村正是一把.....的....武器，掉落.....<br>
+                更多具体描述...<br>
+                更多具体描述...<br>
+                更多具体描述...<br>
+                更多具体描述...<br>
+                它的最佳前缀是...
+            </p>
+            <img src="MurasamaPage.gif" alt="M1" width=600>
+            <p class="extra-tip">——额外tip</p>
+            <button id ="href_button">
+                <a href="https://calamitymod.wiki.gg/wiki/Murasama">查看原版信息</a>
+            </button>
+            <button id ="href_button">
+                <a href="https://github.com/hocha113/CalamityOverhaul">查看代码实现</a>
+            </button>
+        </main>
+
+        <div class="image-block">
+            <h1 class="img-Item-Title">鬼妖村正</h1>
+            <img src="MurasamaPage.gif" alt="M1">
+            <p class="item-id">内部名: Murasama</p>
+            <p class="item-property">基本属性</p>
+            <p class="item-damage">伤害: 10</p>
+            <p class="item-knockback">击退: 0</p>
+            <p class="item-usetimer">使用时间: 10</p>
+            <p class="item-property">物品介绍</p>
+            <p class="item-description">
+                右键瞄准并积蓄剑之能量。左键进行真近战攻击击中目标时，将为剑之能量充能。<br>
+			    如果周围存在强大的敌人，剑之能量将会缓慢自行充能。<br>
+			    当剑之能量蓄满后，按下[KEY1]发射刀身。在刀身飞行过程中，按下左键执行升龙斩击<br>
+			    升龙斩击命中敌人后会为武器1充能。按下[KEY2]消耗1点武器充能值，进行一次下砸攻击<br>
+			    当武器充能值达到最大值10点后，再次用升龙斩击命中敌人将触发终结技<br>
+			    "如果有链锯剑会更好"
+            </p>
+        </div>        
+    </div>
+
+    <footer class="wiki-footer">
+        &copy; 2024 CalamityOverhaul Wiki. 保留所有权利.
+    </footer>
+</body>
+</html>
