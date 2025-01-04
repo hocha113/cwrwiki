@@ -98,6 +98,13 @@ function resetHander(result){
     }
 }
 
+function handleKeyDown(event) {
+    // 检测是否按下了Enter键
+    if (event.key === "Enter") {
+        searchButton(); // 调用搜索函数
+    }
+}
+
 // 输入框事件绑定
 const searchInput = document.getElementById("search");
 searchInput.addEventListener("input", performSearch);
