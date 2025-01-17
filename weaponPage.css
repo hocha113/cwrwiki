@@ -33,6 +33,16 @@ body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
+.clickable-word {
+    color: rgb(20, 178, 199); /* 链接文字颜色 */
+    text-decoration: underline; /* 下划线 */
+    font-weight: bold; /* 加粗 */
+}
+.clickable-word:hover {
+    color: darkorange; /* 鼠标悬停时颜色 */
+    text-decoration: none; /* 鼠标悬停时无下划线 */
+}
+
 .sidebar {
     width: 140px;
     background: linear-gradient(to bottom, rgba(139, 0, 0, 0.9), rgba(59, 59, 59, 0.9));

@@ -39,20 +39,24 @@
         <main class="main-content">
             <h1>鬼妖村正</h1>
             <p> 
-                鬼妖村正是一把.....的....武器，掉落.....<br>
-                更多具体描述...<br>
-                更多具体描述...<br>
-                更多具体描述...<br>
-                更多具体描述...<br>
-                它的最佳前缀是...
+                鬼妖村正是一把传奇武器，在开启了<a href="https://terraria.wiki.gg/zh/wiki/%E4%BF%AE%E9%A5%B0%E8%AF%AD" class="clickable-word">传奇武器系统设置</a>后可以从地狱实验室中拿取并直接使用<br>
+                它会随着游戏进度而逐渐强大，有1到15个等级<br>
+                它的最佳前缀是<a href="https://terraria.wiki.gg/zh/wiki/%E4%BF%AE%E9%A5%B0%E8%AF%AD" class="clickable-word">传奇</a>
             </p>
-            <img src="MurasamaPage.gif" alt="M1" class="pwertGIF" loading="lazy">
-            <p class="extra-tip">——额外tip</p>
+            <h3>普通攻击</h3>
+            <img src="MurasamaGIF1.gif" alt="MurasamaGIF1" class="pwertGIF" loading="lazy">
+            <h3>技能1-升龙斩</h3>
+            <img src="MurasamaGIF2.gif" alt="MurasamaGIF2" class="pwertGIF" loading="lazy">
+            <h3>技能2-落樱</h3>
+            <img src="MurasamaGIF3.gif" alt="MurasamaGIF3" class="pwertGIF" loading="lazy">
+            <h3>终结技-空间斩</h3>
+            <img src="MurasamaGIF4.gif" alt="MurasamaGIF4" class="pwertGIF" loading="lazy">
+            <p class="extra-tip"></p>
             <button id ="href_button">
                 <a href="https://calamitymod.wiki.gg/wiki/Murasama">查看原版信息</a>
             </button>
             <button id ="href_button">
-                <a href="https://github.com/hocha113/CalamityOverhaul">查看代码实现</a>
+                <a href="https://github.com/hocha113/CalamityOverhaul/blob/main/Content/Items/Melee/MurasamaEcType.cs">查看代码实现</a>
             </button>
         </main>
 
@@ -73,6 +77,222 @@
 			    当武器充能值达到最大值10点后，再次用升龙斩击命中敌人将触发终结技<br>
 			    "如果有链锯剑会更好"
             </p>
+
+            <h1 class="item-property">伤害成长曲线</h1>
+            <table class="item-description" border="1" style="border-collapse: collapse; width: 50%; text-align: center;">
+                <thead>
+                    <tr>
+                        <th>等级</th>
+                        <th>伤害值</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>65</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>140</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>280</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>450</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>750</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>1600</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>1900</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>2400</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>4000</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h1 class="item-property">刀刃大小成长曲线</h1>
+            <table class="item-description" border="1" style="border-collapse: collapse; width: 50%; text-align: center;">
+                <thead>
+                    <tr>
+                        <th>等级</th>
+                        <th>刀刃大小缩放系数</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>0.6</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>0.65</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>0.7</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>0.75</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>0.8</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>0.85</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>0.9</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>1.1</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>1.2</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>1.3</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>1.35</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>1.4</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>1.45</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>1.5</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h1 class="item-property">击退值成长曲线</h1>
+            <table class="item-description" border="1" style="border-collapse: collapse; width: 50%; text-align: center;">
+                <thead>
+                    <tr>
+                        <th>等级</th>
+                        <th>击退值</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>1.6</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>1.85</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>2.1</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>2.45</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>2.8</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>3.15</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>3.9</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>4.2</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>4.4</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>5.1</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>5.3</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>5.65</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>5.8</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>6.2</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>6.5</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>        
     </div>
 
