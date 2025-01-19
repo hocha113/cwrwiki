@@ -191,6 +191,7 @@ body {
 
 .pwertGIF {
     width: 50%;
+    min-width: 100px;
     max-width: 600px;
     height: auto;
     display: block;
