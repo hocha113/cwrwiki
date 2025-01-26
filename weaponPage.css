@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(180deg, #2c2c2c 30%, #1b1b1b);
-    background: url('/asset/background.png') no-repeat center center fixed;
+    background: url('asset/background.png') no-repeat center center fixed;
     background-size: cover;
     font-family: "Segoe UI", Arial, sans-serif;
     margin: 0;
