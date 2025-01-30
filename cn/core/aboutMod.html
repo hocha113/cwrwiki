@@ -3,12 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>关于模组-灾厄大修Wiki</title>
+    <title>关于模组 - 灾厄大修Wiki</title>
     <link rel="icon" href="/asset/other/icon_small.png" type="image/x-icon">
     <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" href="/pwertList.css">
     <link rel="stylesheet" href="/languageSelector.css">
     <link rel="stylesheet" href="/searchTool/searchStyle.css">
+    <style>
+        .content-box {
+            background-color: rgba(90, 10, 10, 0.2); /* 降低饱和度，柔和深红 */
+            color: #f0e6e6; /* 调整为柔和的浅灰白，提高可读性 */
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            border: 1px solid #3e0606; /* 更深的边框色，减少视觉疲劳 */
+        }
+        .content-box h2 {
+            border-bottom: 2px solid #a83232; /* 柔和的暗红色，提高层次感 */
+            padding-bottom: 5px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 18px;
+            background-color: #7a1a1a; /* 调低饱和度，改善舒适度 */
+            color: #ffffff;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease-in-out;
+        }
+        .button:hover {
+            background-color: #962020; /* 适度提亮，使交互更自然 */
+        }
+    </style>
 </head>
 <body>
     <header class="wiki-header">
@@ -17,9 +46,6 @@
             <input type="text" id="search" placeholder="搜索..." onclick="performSearch()">
             <button onclick="searchButton()" id="search-button">搜索</button>
             <button id="language-button">🌐Switch to English</button>
-        </div>
-        <div id="search-results">
-            <div class="search-result-item"></div>
         </div>
         <script src="/searchTool/searchDictionary.js" defer></script>
         <script src="/searchTool/searchSystem.js"></script>
@@ -39,9 +65,44 @@
 
         <main class="main-content">
             <h1>关于模组</h1>
-            <p>感谢所有社区支持者！</p>
-            <div class="weapon-grid">
-                
+            
+            <div class="content-box">
+                <h2>模组简介</h2>
+                <p>灾厄大修是一个针对 Terraria 灾厄模组的扩展和优化项目，旨在提升游戏体验，并提供更多丰富的内容</p>
+                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3161388997&tscn=1738229323" class="button" target="_blank">前往Steam主页查看</a>
+            </div>
+
+            <div class="content-box">
+                <h2>源码与贡献</h2>
+                <p>如果您有兴趣参与模组的开发或贡献代码，可以访问我们的开源项目：</p>
+                <a href="https://github.com/hocha113/CalamityOverhaul" class="button" target="_blank">前往 GitHub</a>
+            </div>
+
+            <div class="content-box">
+                <h2>支持我们!</h2>
+                <p>您的捐赠将帮助我们进行更多更好的更新，以及维护Wiki网站</p>
+                <a href="https://afdian.com/a/hocha113" class="button" target="_blank">爱发电捐赠!</a>
+            </div>
+            
+            <div class="content-box">
+                <h2>开发团队</h2>
+                <ul>
+                    <li><strong>HoCha113:</strong> 模组的创始人和拥有者 代码编写人员</li>
+                    <li><strong>雾梯V</strong> 模组画师</li>
+                    <li><strong>Monomon:</strong> 本地化校验 游戏文本核对与后期测试负责</li>
+                </ul>
+            </div>
+
+            <div class="content-box">
+                <h2>鸣谢</h2>
+                <p>特别感谢所有支持灾厄大修的社区成员，感谢以下人员为模组的开发提供帮助：</p>
+                <ul>
+                    <li>瓶中微光 - 代码贡献</li>
+                    <li>Cyrillya - 代码贡献</li>
+                    <li>Carum - 美术资源</li>
+                    <li>NonamewouldFit - 英文本地化翻译</li>
+                    <li>像樱花一样飘散吧 - 平衡测试</li>
+                </ul>
             </div>
         </main>
     </div>
