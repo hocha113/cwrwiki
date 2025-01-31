@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>关于模组 - 灾厄大修Wiki</title>
+    <title>About Mod-COMod Wiki</title>
     <link rel="icon" href="/asset/other/icon_small.png" type="image/x-icon">
     <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" href="/pwertList.css">
@@ -41,11 +41,13 @@
 </head>
 <body>
     <header class="wiki-header">
-        <div class="logo">灾厄大修Wiki</div>
+        <div class="logo">Calamity Overhaul Wiki</div>
         <div class="search-bar">
-            <input type="text" id="search" placeholder="搜索..." onkeydown="handleKeyDown(event)">
-            <button onclick="searchButton()" id="search-button">🔍搜索</button>
+            <input type="text" id="search" placeholder="Search..." onkeydown="handleKeyDown(event)">
+            <button onclick="searchButton()" id="search-button">Search</button>
         </div>
+        <script src="/searchTool/searchDictionary.js" defer></script>
+        <script src="/searchTool/searchSystem.js"></script>
         <div id="search-results">
             <div class="search-result-item"></div>
         </div>
@@ -57,56 +59,56 @@
         <aside class="sidebar">
             <nav>
                 <ul>
-                    <li><a href="/index.html">返回主页</a></li>
-                    <li><a href="/cn/core/weaponList.html">武器</a></li>
-                    <li><a href="/cn/core/mechanism.html">机制</a></li>
-                    <li><a href="/cn/core/biology.html">生物</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/en/core/weaponList.html">Weapon</a></li>
+                    <li><a href="/en/core/mechanism.html">Modify</a></li>
+                    <li><a href="/en/core/biology.html">Enemy</a></li>
                 </ul>
             </nav>
         </aside>
 
         <main class="main-content">
-            <h1>关于模组</h1>
+            <h1>About Mod</h1>
             
             <div class="content-box">
-                <h2>模组简介</h2>
-                <p>灾厄大修是一个针对 Terraria 灾厄模组的扩展和优化项目，旨在提升游戏体验，并提供更多丰富的内容</p>
-                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3161388997&tscn=1738229323" class="button" target="_blank">前往Steam主页查看</a>
-            </div>
-
-            <div class="content-box">
-                <h2>源码与贡献</h2>
-                <p>如果您有兴趣参与模组的开发或贡献代码，可以访问我们的开源项目：</p>
-                <a href="https://github.com/hocha113/CalamityOverhaul" class="button" target="_blank">前往 GitHub</a>
-            </div>
-
-            <div class="content-box">
-                <h2>支持我们!</h2>
-                <p>您的捐赠将帮助我们进行更多更好的更新，以及维护Wiki网站</p>
-                <a href="https://afdian.com/a/hocha113" class="button" target="_blank">爱发电捐赠!</a>
+                <h2>Mod Introduction</h2>
+                <p>Calamity Overhaul is an expansion and optimization project for the Terraria Calamity Mod, aimed at enhancing the gameplay experience and providing richer content.</p>
+                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3161388997&tscn=1738229323" class="button" target="_blank">View on Steam</a>
             </div>
             
             <div class="content-box">
-                <h2>开发团队</h2>
-                <ul>
-                    <li><strong>HoCha113:</strong> 模组的创始人和拥有者 代码编写人员</li>
-                    <li><strong>雾梯V:</strong> 模组画师</li>
-                    <li><strong>Monomon:</strong> 本地化校验 游戏文本核对与后期测试负责</li>
-                </ul>
+                <h2>Source Code & Contributions</h2>
+                <p>If you're interested in contributing to the mod's development or code, you can visit our open-source project:</p>
+                <a href="https://github.com/hocha113/CalamityOverhaul" class="button" target="_blank">Visit GitHub</a>
             </div>
-
+            
             <div class="content-box">
-                <h2>鸣谢</h2>
-                <p>特别感谢所有支持灾厄大修的社区成员，感谢以下人员为模组的开发提供帮助：</p>
+                <h2>Support Us!</h2>
+                <p>Your donations will help us deliver more quality updates and maintain the Wiki site.</p>
+                <a href="https://afdian.com/a/hocha113" class="button" target="_blank">Donate on Afdian!</a>
+            </div>
+            
+            <div class="content-box">
+                <h2>Development Team</h2>
                 <ul>
-                    <li>瓶中微光 - 代码贡献</li>
-                    <li>Cyrillya - 代码贡献</li>
-                    <li>Chram - 代码贡献</li>
-                    <li>Muts - 美术资源</li>
-                    <li>NonamewouldFit - 英文本地化翻译</li>
-                    <li>像樱花一样飘散吧 - 平衡测试</li>
+                    <li><strong>HoCha113:</strong> Founder and owner of the mod, lead programmer</li>
+                    <li><strong>WutiV:</strong> Mod artist</li>
+                    <li><strong>Monomon:</strong> Localization reviewer, game text verification, and post-testing</li>
                 </ul>
             </div>
+            
+            <div class="content-box">
+                <h2>Acknowledgments</h2>
+                <p>Special thanks to all community members supporting Calamity Overhaul, and to the following individuals for their contributions:</p>
+                <ul>
+                    <li>Glowing Bottle - Code contributions</li>
+                    <li>Cyrillya - Code contributions</li>
+                    <li>Chram - Code contributions</li>
+                    <li>Muts - Art assets</li>
+                    <li>NonamewouldFit - English localization</li>
+                    <li>Like Sakura Scattering - Balance testing</li>
+                </ul>
+            </div>            
         </main>
     </div>
 

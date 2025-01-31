@@ -92,7 +92,7 @@ function searchButton(){
 function resetHander(result){
     const page = pageDictionary[result]; // 获取对应的页面路径
     if (page) {
-        window.location.href = "/" + page; // 跳转到对应页面
+        window.location.href = page; // 跳转到对应页面
     } else {
         alert("页面未找到！"); // 如果没有找到对应的页面路径
     }
