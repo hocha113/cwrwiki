@@ -9,7 +9,7 @@
         "title": "灾厄大修Wiki",
         "title2": "主页-灾厄大修Wiki",
         "welcome": "欢迎来到灾厄大修Wiki",
-        "description": "这是一个为灾厄大修玩家和开发者提供的资料库，您可以在这里查询关于模组内容的各种信息 (--当前维基并未制作完成，如果发现错误之处或者未完成的页面请见谅--)",
+        "description": "<p>这是一个为灾厄大修玩家和开发者提供的资料库，您可以在这里查询关于模组内容的各种信息</p><p>(--当前维基并未制作完成,完成进度约35%,如果发现错误之处或者未完成的页面请见谅--)</p>",
         "weapons": "武器",
         "weapons_desc": "查看所有新增和改动的武器",
         "changes": "机制",
@@ -17,7 +17,7 @@
         "enemies": "生物",
         "enemies_desc": "查看模组中新增和调整的生物",
         "about": "关于模组",
-        "footer": "Calamity Overhaul Wiki 保留所有权利."
+        "footer": "<p>本Wiki的内容由灾厄大修开发组与社区贡献者们整理制作，并依据 <a href='https://creativecommons.org/licenses/by-nc-sa/3.0/' target='_blank'>CC BY-NC-SA 3.0 国际许可协议</a> 进行许可。</p><p><strong>BY(署名):</strong> 您必须提供适当的署名，指明原始来源，并标明是否对原始作品进行了修改。署名方式应合理且不得暗示本Wiki对您或您的使用行为进行背书。</p><p><strong>NC(非商业性使用):</strong> 您不得将本Wiki的内容用于任何商业目的，包括但不限于开发第三方小程序或应用。灾厄大修开发组对商业用途的定义拥有最终解释权。</p><p><strong>SA(相同方式共享):</strong> 如果您对本Wiki的内容进行修改、转换或基于其创作新的作品，您必须使用相同的许可协议发布您的贡献内容。</p><p>未经授权，任何个人或第三方不得将本Wiki的内容复制、转存或引用至商业用途的程序或应用。如需授权，请联系管理团队。</p><p>&copy; 2024 CalamityOverhaul Wiki. 保留所有权利.</p>"
     },
     "en-US": {
         "search0": "🔍Search",
@@ -29,7 +29,7 @@
         "title": "Calamity Overhaul Wiki",
         "title2": "Home-COMod Wiki",
         "welcome": "Welcome to the Calamity Overhaul Wiki",
-        "description": "This is a database for Calamity Overhaul players and developers, you can query a variety of information about the content of the module here (- the current wiki is not completed, if you find errors or incomplete pages, please forgive me -)",
+        "description": "<p>This is a knowledge base for Calamity Overhaul players and developers, where you can find various information about the mod's content.</p><p>(--This wiki is not yet fully completed, with an estimated completion progress of about 35%. Please forgive any errors or unfinished pages.--)</p>",
         "weapons": "Weapons",
         "weapons_desc": "Browse all new and modified weapons in the mod.",
         "changes": "Changes",
@@ -37,6 +37,6 @@
         "enemies": "Enemies",
         "enemies_desc": "Check out the new and adjusted enemies in the mod.",
         "about": "About the Mod",
-        "footer": "Calamity Overhaul Wiki All rights reserved."
+        "footer": "<p>The content of this Wiki is compiled by the Calamity Overhaul development team and community contributors, and is licensed under the <a href='https://creativecommons.org/licenses/by-nc-sa/3.0/' target='_blank'>CC BY-NC-SA 3.0 International License</a>.</p><p><strong>BY (Attribution):</strong> You must give appropriate credit, indicate the original source, and specify whether modifications were made. The attribution should be reasonable and should not imply endorsement by this Wiki.</p><p><strong>NC (Non-Commercial):</strong> You may not use the content of this Wiki for any commercial purposes, including but not limited to the development of third-party applications or software. The Calamity Overhaul development team has the final interpretation of what constitutes commercial use.</p><p><strong>SA (ShareAlike):</strong> If you modify, transform, or build upon the content of this Wiki, you must distribute your contributions under the same license as the original.</p><p>Without authorization, no individual or third party may copy, transfer, or reference the content of this Wiki for commercial applications or software. For authorization, please contact the management team.</p><p>&copy; 2024 CalamityOverhaul Wiki. All rights reserved.</p>"
     }
 }  

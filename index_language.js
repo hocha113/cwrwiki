@@ -16,7 +16,7 @@ async function updateContent(lang) {
     document.title = content.title2;
     document.querySelector('.logo').textContent = content.title;
     document.querySelector('h1').textContent = content.welcome;
-    document.querySelector('p').textContent = content.description;
+    document.querySelector('p').innerHTML = content.description;
 
     document.querySelectorAll('.sidebar nav ul li a')[0].textContent = content.sidebar0;
     document.querySelectorAll('.sidebar nav ul li a')[1].textContent = content.sidebar1;
@@ -32,7 +32,8 @@ async function updateContent(lang) {
     document.querySelectorAll('.category')[1].querySelector('p').textContent = content.changes_desc;
     document.querySelectorAll('.category')[2].querySelector('h2').textContent = content.enemies;
     document.querySelectorAll('.category')[2].querySelector('p').textContent = content.enemies_desc;
-    document.querySelector('footer p').textContent = content.footer;
+    //document.querySelector('footer p').textContent = content.footer;
+    document.querySelector('.wiki-footer').innerHTML = content.footer;
 
     // 更新语言按钮
     const languageButton = document.getElementById('language-button');
