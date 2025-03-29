@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Mod-COMod Wiki</title>
+    <title>About the Mod - Calamity Overhaul Wiki</title>
     <link rel="icon" href="/asset/other/icon_small.png" type="image/x-icon">
     <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" href="/pwertList.css">
@@ -11,22 +11,22 @@
     <link rel="stylesheet" href="/searchTool/searchStyle.css">
     <style>
         .content-box {
-            background-color: rgba(90, 10, 10, 0.2); /* 降低饱和度，柔和深红 */
-            color: #f0e6e6; /* 调整为柔和的浅灰白，提高可读性 */
+            background-color: rgba(90, 10, 10, 0.2);
+            color: #f0e6e6;
             padding: 20px;
             border-radius: 8px;
             margin-bottom: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-            border: 1px solid #3e0606; /* 更深的边框色，减少视觉疲劳 */
+            border: 1px solid #3e0606;
         }
         .content-box h2 {
-            border-bottom: 2px solid #a83232; /* 柔和的暗红色，提高层次感 */
+            border-bottom: 2px solid #a83232;
             padding-bottom: 5px;
         }
         .button {
             display: inline-block;
             padding: 10px 18px;
-            background-color: #7a1a1a; /* 调低饱和度，改善舒适度 */
+            background-color: #7a1a1a;
             color: #ffffff;
             font-weight: bold;
             text-transform: uppercase;
@@ -35,7 +35,7 @@
             transition: all 0.3s ease-in-out;
         }
         .button:hover {
-            background-color: #962020; /* 适度提亮，使交互更自然 */
+            background-color: #962020;
         }
     </style>
 </head>
@@ -44,10 +44,8 @@
         <div class="logo">Calamity Overhaul Wiki</div>
         <div class="search-bar">
             <input type="text" id="search" placeholder="Search..." onkeydown="handleKeyDown(event)">
-            <button onclick="searchButton()" id="search-button">Search</button>
+            <button onclick="searchButton()" id="search-button">🔍Search</button>
         </div>
-        <script src="/searchTool/searchDictionary.js" defer></script>
-        <script src="/searchTool/searchSystem.js"></script>
         <div id="search-results">
             <div class="search-result-item"></div>
         </div>
@@ -60,60 +58,168 @@
             <nav>
                 <ul>
                     <li><a href="/index.html">Home</a></li>
-                    <li><a href="/en/core/weaponList.html">Weapon</a></li>
-                    <li><a href="/en/core/mechanism.html">Modify</a></li>
-                    <li><a href="/en/core/biology.html">Enemy</a></li>
+                    <li><a href="/en/core/mechanism.html">Mechanics</a></li>
+                    <li><a href="/en/core/biology.html">Creatures</a></li>
+                    <li><a href="/en/core/aboutMod.html">About Mod</a></li>
                 </ul>
             </nav>
         </aside>
 
         <main class="main-content">
-            <h1>About Mod</h1>
+            <h1>About the Mod</h1>
             
+            <div class="content-box">
+                <h2>Support Us!</h2>
+                <p>Your donation will help us deliver more updates and maintain the Wiki site.</p>
+                <a href="https://afdian.com/a/hocha113" class="button" target="_blank">Donate on Afdian!</a>
+            </div>
+
             <div class="content-box">
                 <h2>Mod Introduction</h2>
                 <p>Calamity Overhaul is an expansion and optimization project for the Terraria Calamity Mod, aimed at enhancing the gameplay experience and providing richer content.</p>
                 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3161388997&tscn=1738229323" class="button" target="_blank">View on Steam</a>
             </div>
-            
+
             <div class="content-box">
                 <h2>Source Code & Contributions</h2>
-                <p>If you're interested in contributing to the mod's development or code, you can visit our open-source project:</p>
-                <a href="https://github.com/hocha113/CalamityOverhaul" class="button" target="_blank">Visit GitHub</a>
+                <p>If you are interested in contributing to the development of the mod, you can visit our open-source project:</p>
+                <a href="https://github.com/hocha113/CalamityOverhaul" class="button" target="_blank">Go to GitHub</a>
             </div>
-            
-            <div class="content-box">
-                <h2>Support Us!</h2>
-                <p>Your donations will help us deliver more quality updates and maintain the Wiki site.</p>
-                <a href="https://afdian.com/a/hocha113" class="button" target="_blank">Donate on Afdian!</a>
-            </div>
-            
+
             <div class="content-box">
                 <h2>Development Team</h2>
                 <ul>
                     <li><strong>HoCha113:</strong> Founder and owner of the mod, lead programmer</li>
-                    <li><strong>WutiV:</strong> Mod artist</li>
-                    <li><strong>Monomon:</strong> Localization reviewer, game text verification, and post-testing</li>
+                    <li><strong>雾梯V:</strong> Mod artist, content and art design</li>
+                    <li><strong>Monomon:</strong> Localization verification, game text checking, and post-testing</li>
                 </ul>
             </div>
-            
+
             <div class="content-box">
-                <h2>Acknowledgments</h2>
-                <p>Special thanks to all community members supporting Calamity Overhaul, and to the following individuals for their contributions:</p>
+                <h1>Special Thanks</h1>
+                <p>Special thanks to all community members who support Calamity Overhaul. Thanks to the following people for their contributions to the mod:</p>
+                
+                <h2>Art Contributions</h2>
                 <ul>
-                    <li>Glowing Bottle - Code contributions</li>
-                    <li>Cyrillya - Code contributions</li>
-                    <li>Chram - Code contributions</li>
-                    <li>Muts - Art assets</li>
-                    <li>NonamewouldFit - English localization</li>
-                    <li>Like Sakura Scattering - Balance testing</li>
+                    <li>雾梯</li>
+                </ul>
+                
+                <h2>Code Contributions</h2>
+                <ul>
+                    <li>Cyrilly</li>
+                    <li>瓶中微光</li>
+                    <li>Monomon</li>
+                </ul>
+                
+                <h2>Balance Testing</h2>
+                <ul>
+                    <li>像樱花一样飘散吧</li>
+                    <li>洛千希</li>
+                    <li>闪耀£星辉</li>
+                    <li>蒹莭</li>
+                    <li>悬剑</li>
+                    <li>CataStrophe</li>
+                </ul>
+                
+                <h2>Donors</h2>
+                <ul>
+                    <li>啊,胖子</li>
+                    <li>星星之火</li>
+                    <li>摸鱼的龙虾</li>
+                    <li>众星环绕</li>
+                    <li>respect</li>
+                    <li>鱼过海洋</li>
+                    <li>浮云落日</li>
+                    <li>生物音素</li>
+                    <li>快乐肥宅橘九</li>
+                    <li>半生浮云半生闲</li>
+                    <li>阿萨德沃荣托</li>
+                    <li>冰冷小龙</li>
+                    <li>心酱</li>
+                    <li>圣盗杰布微明</li>
+                    <li>柳冠希</li>
+                    <li>天空之城</li>
+                    <li>Svetlana</li>
+                    <li>Murainm</li>
+                    <li>Sergei</li>
+                    <li>森林之心</li>
+                    <li>流浪者</li>
+                    <li>黑夜之光</li>
+                    <li>秋叶</li>
+                    <li>青空</li>
+                    <li>月光下的影子</li>
+                    <li>逐风者</li>
+                    <li>Ivan</li>
+                    <li>Olga</li>
+                    <li>Alexander</li>
+                    <li>Natalia</li>
+                    <li>Dmitry</li>
+                    <li>悠然见南山</li>
+                    <li>星河影</li>
+                    <li>ShadowHunter</li>
+                    <li>MysticWarrior</li>
+                    <li>StormBringer</li>
+                    <li>Сырныйбарон336</li>
+                    <li>无形剑</li>
+                    <li>IceQueen</li>
+                    <li>Yelena</li>
+                    <li>Viktor</li>
+                    <li>白日梦想家</li>
+                    <li>追梦少年</li>
+                    <li>PhoenixRising</li>
+                    <li>DragonSlayer</li>
+                    <li>Vladislav</li>
+                    <li>Anastasia</li>
+                    <li>行者无疆</li>
+                    <li>蓝色星辰</li>
+                    <li>BlazeKnight</li>
+                    <li>ThunderGod</li>
+                    <li>StarLord</li>
+                    <li>天涯海角</li>
+                    <li>梦幻旅人</li>
+                    <li>风中的歌</li>
+                    <li>花间一壶酒</li>
+                    <li>凌云壮志</li>
+                    <li>Maxim</li>
+                    <li>Nikolai</li>
+                    <li>Tatiana</li>
+                    <li>寂静春天Ogger1943</li>
+                    <li>无尽之海</li>
+                    <li>Yuri</li>
+                    <li>Sasha</li>
+                    <li>苍穹之翼</li>
+                    <li>淮海不是明月</li>
+                    <li>剑心</li>
+                    <li>Ekaterina</li>
+                    <li>Mikhail</li>
+                    <li>Igor</li>
+                    <li>龙辰</li>
+                    <li>Lyudmila</li>
+                    <li>Artem</li>
+                    <li>Katerina</li>
+                    <li>Oleg</li>
+                    <li>Fwoer'Vmoerd</li>
+                    <li>苍穹彼岸offest</li>
+                    <li>Кот Пельмень</li>
+                    <li>我能看看你的小学吗</li>
+                    <li>烂柯棋约</li>
+                    <li>华屋丘墓</li>
+                    <li>易燃易爆品daze</li>
+                </ul>
+                
+                <h2>Wiki Contributors</h2>
+                <ul>
+                    <li>蒹莭</li>
+                    <li>雾梯V</li>
+                    <li>Monomon</li>
+                    <li>至高白</li>
                 </ul>
             </div>            
         </main>
     </div>
 
     <footer class="wiki-footer">
-        &copy; 2024 CalamityOverhaul Wiki. 保留所有权利.
+        &copy; 2024 Calamity Overhaul Wiki. All rights reserved.
     </footer>
 </body>
 </html>

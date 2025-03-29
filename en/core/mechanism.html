@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>机制介绍-灾厄大修Wiki</title>
+    <title>Mechanics - Calamity Overhaul Wiki</title>
     <link rel="icon" href="/asset/other/icon_small.png" type="image/x-icon">
     <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" href="/pwertList.css">
     <link rel="stylesheet" href="/languageSelector.css">
     <link rel="stylesheet" href="/searchTool/searchStyle.css">
+    <link rel="stylesheet" href="/weaponPage.css"><!--TODO:这个是暂时的样式导入-->
 </head>
 <body>
     <header class="wiki-header">
-        <div class="logo">灾厄大修Wiki</div>
+        <div class="logo">Calamity Overhaul Wiki</div>
         <div class="search-bar">
-            <input type="text" id="search" placeholder="搜索..." onclick="performSearch()">
-            <button onclick="searchButton()" id="search-button">搜索</button>
-            <button id="language-button">🌐Switch to English</button>
+            <input type="text" id="search" placeholder="Search..." onclick="performSearch()">
+            <button onclick="searchButton()" id="search-button">🔍Search</button>
         </div>
         <div id="search-results">
             <div class="search-result-item"></div>
@@ -29,17 +29,21 @@
         <aside class="sidebar">
             <nav>
                 <ul>
-                    <li><a href="/index.html">返回主页</a></li>
-                    <li><a href="/cn/core/weaponList.html">武器</a></li>
-                    <li><a href="/cn/core/biology.html">生物</a></li>
-                    <li><a href="/cn/core/aboutMod.html">关于模组</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/en/core/mechanism.html">Mechanics</a></li>
+                    <li><a href="/en/core/biology.html">Creatures</a></li>
+                    <li><a href="/en/core/aboutMod.html">About Mod</a></li>
                 </ul>
             </nav>
         </aside>
 
         <main class="main-content">
-            <h1>机制内容</h1>
-            <p>灾厄大修调整和更改了不少机制，比如小到物品的配方合成，大到世界的地形生成和天气</p>
+            <h1>Mechanics</h1>
+            <p>Calamity Overhaul has adjusted and changed various mechanics, ranging from item crafting recipes to large-scale world generation and weather effects.</p>
+            <h2>The English section is not finished, you can choose to go to the Chinese section before this page is finished</h2>
+            <button id ="href_button">
+                <a href="/cn/core/mechanism.html"><h2>Go To Chinese Section</h2></a>
+            </button>
             <div class="weapon-grid">
                 
             </div>
@@ -47,7 +51,7 @@
     </div>
 
     <footer class="wiki-footer">
-        &copy; 2024 CalamityOverhaul Wiki. 保留所有权利.
+        &copy; 2024 Calamity Overhaul Wiki. All rights reserved.
     </footer>
 </body>
 </html>
