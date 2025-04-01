@@ -199,3 +199,50 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+@media screen and (max-width: 768px) {
+    .wiki-header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sidebar {
+        width: 100%;
+        border-radius: 0;
+        text-align: center;
+    }
+    
+    .main-content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .search-bar {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .search-bar input {
+        width: 100%;
+    }
+    
+    .categories {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+    
+    .image-block {
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .pwertGIF {
+        width: 90%;
+    }
+}

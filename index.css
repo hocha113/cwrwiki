@@ -219,6 +219,10 @@ body {
     .main-content {
         width: 100%;
     }
+
+    .wiki-header .logo {
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -233,5 +237,9 @@ body {
     
     .categories {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .wiki-header .logo {
+        font-size: 1.2em;
     }
 }
