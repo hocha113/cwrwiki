@@ -2,8 +2,8 @@
 function levenshtein(a, b) {
     const tmp = [];
     let i, j, alen = a.length, blen = b.length, alen1 = alen + 1, blen1 = blen + 1;
-    if (alen == 0) return blen;
-    if (blen == 0) return alen;
+    if (alen === 0) return blen;
+    if (blen === 0) return alen;
     for (i = 0; i < alen1; i++) tmp[i] = [i];
     for (j = 0; j < blen1; j++) tmp[0][j] = j;
     for (i = 1; i < alen1; i++) {
@@ -79,7 +79,7 @@ function performSearch() {
 
 function searchButton(){
     if (results != null && results.length > 0){
-        if (results.length == 1){
+        if (results.length === 1){
             window.location.href = pageDictionary[results[0]];
             return;
         }
