@@ -1,8 +1,5 @@
 // 获取所有的 .category 元素
 const categories = document.querySelectorAll('.category');
-            
-// 获取音效元素
-const soundEffect = document.getElementById('soundEffect');
 
 // 创建一个标记，用来判断是否已经播放过音效
 let isSoundPlaying = false;
